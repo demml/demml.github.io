@@ -45,9 +45,3 @@
     @apply transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-small;
 }
 
-
-::selection {
-    @apply bg-secondary-100; /* Replace with your desired color */
-    @apply text-secondary-900; /* Optional: change the text color when selected */
-  }
-
