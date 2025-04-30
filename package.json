@@ -15,15 +15,15 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/kit": "^2.20.7",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
-		"@sveltejs/kit": "^2.19.0",
 		"@tailwindcss/forms": "^0.5.10",
 		"@tailwindcss/typography": "^0.5.16",
-		"@tailwindcss/vite": "^4.0.12",
-		"svelte": "^5.22.6",
-		"tailwindcss": "^4.0.12",
-		"typescript": "^5.8.2",
-		"vite": "^6.2.1"
+		"@tailwindcss/vite": "^4.1.5",
+		"svelte": "^5.28.2",
+		"tailwindcss": "^4.1.5",
+		"typescript": "^5.8.3",
+		"vite": "^6.3.4"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
