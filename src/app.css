@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
-
-
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
 @import "../demml-theme.css";
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
 
 @theme {
     --font-sans: Roboto, sans-serif; 
@@ -44,4 +48,10 @@
 .reverse-shadow-hover-small {
     @apply transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-small;
 }
+
+
+::selection {
+    @apply bg-secondary-100; /* Replace with your desired color */
+    @apply text-secondary-900; /* Optional: change the text color when selected */
+  }
 
