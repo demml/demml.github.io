@@ -10,7 +10,7 @@
 
 <div class="layout h-screen font-sans overflow-hidden">
   <Navbar/>
-  <div class="flex-1 overflow-auto pt-[75px]">
+  <div class="flex-1 overflow-auto">
     {@render children()}
   </div>
 </div>

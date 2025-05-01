@@ -17,16 +17,16 @@
   
   </script>
   
-  <nav class="fixed left-0 top-0 z-20 mx-auto flex h-[75px] w-full items-center border-b-4 border-border bg-primary-700 border-b-2 border-black px-5 m500:h-16">
-    <div class="mx-auto flex w-full items-center justify-between px-10 md:px-20">
+  <nav class="fixed left-0 top-0 z-20 mx-auto flex h-[75px] w-full items-center border-b-4 border-border bg-primary-700 border-b-2 border-black px-2 m500:h-16">
+    <div class="mx-auto flex w-full items-center justify-between px-4 md:px-20">
       
  
       <div class="flex items-center justify-start gap-10">
         <a href="/" class="items-center">
-          <div class="h-12">
+          <div class="h-8 sm:h-12">
             <img 
               src={logo} 
-              class="h-12 object-contain"
+              class="h-8 sm:h-12 object-contain"
               alt="Opsml Logo"
             />
           </div>
