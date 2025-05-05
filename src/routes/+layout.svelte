@@ -14,7 +14,7 @@
   <img 
     src={gear} 
     alt="Gear overlay" 
-    class="hidden xl:fixed xl:block top-30 right-20 xl:w-06 xl:h-96 pointer-events-none z-[1]" 
+    class="hidden xl:fixed xl:block top-30 right-20 xl:w-80 xl:h-80 pointer-events-none z-[1]" 
   />
   <div class="relative z-[2] flex flex-col min-h-screen">
     <Navbar/>
@@ -25,7 +25,7 @@
   <img 
     src={gear} 
     alt="Gear overlay" 
-    class="hidden xl:fixed xl:block bottom-30 left-20 xl:w-06 xl:h-96 pointer-events-none z-[1]" 
+    class="hidden xl:fixed xl:block bottom-30 left-20 xl:w-80 xl:h-80 pointer-events-none z-[1]" 
   />
   <footer class="flex items-center p-4 bg-primary-700 text-white">
     <p class="text-sm text-left">© 2025 Demml</p>
